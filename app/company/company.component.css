@@ -1,0 +1,297 @@
+*::before,
+*::after {
+  box-sizing:inherit;
+}
+html{
+  box-sizing: border-box;
+}
+span{
+  color: #0085FF;
+}
+.slider-image{
+  width:1400px;
+  height:600px;
+}
+
+#container{
+  width:100%;
+  height: 33rem;
+}
+
+.dev{
+  background: url(/assets/image/0-01.png);
+
+}
+.h3-1{
+  font-weight: bold;
+}
+.have{
+  font-weight: bold;
+
+}
+
+
+.col1{
+  width:500px;
+  margin-top: 7rem;
+  float:left;
+  margin-right: 2.75rem;
+  margin-left: 6rem;
+  height:25rem;
+
+}
+
+.col2{
+  width:650px;
+  float:left;
+  margin-top: 7rem;
+  padding-left: 1rem;
+
+}
+
+
+.products-container{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition:all 2s linear;
+}
+.container{
+  width: 100%;
+  padding: 2rem 1rem;
+}
+.text{
+  text-align: center;
+}
+.blue{
+  text-align: center;
+}
+.container .products-container{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(7rem,1fr));
+  gap:1rem;
+}
+.center{
+  padding:1rem;
+  margin-left: 2.50rem;
+  margin-top: 1rem;
+}
+
+.design{
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+#designs{
+  padding-top: -.25rem;
+}
+#designer{
+  padding-top: 1.50rem;
+}
+.h3-2{
+text-align: center;
+margin-top: 4.5rem;
+}
+
+.carousel-imagetext{
+  list-style: none;
+}
+li{
+  padding: 1rem;
+}
+li:hover{
+  color:#0273fd;
+}
+a{
+  color:#3b4c61;
+}
+hr.solid {
+  color:#0000CD;
+  border: 1px solid;
+  width:95%;
+  margin-left: 2rem;
+}
+.carousel-text{
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-top: 1.75rem;
+
+}
+
+.db {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: rgb(0, 0, 0);
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.containers{
+  max-width: 1600px;
+  padding: 6rm 4rm;
+
+
+}
+.containers .products-container{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem,1fr));
+  gap:1rem;
+}
+.imaage{
+  margin-top: 7rem;
+  margin-left: 1rem;
+}
+.imaages{
+  margin-top: 7rem;
+  margin-left: 7rem;
+  padding-left: 5rem;
+}
+.paragraph{
+ margin-top: -3rem;
+  font-weight:450;
+  margin-bottom: 5rem;
+
+}
+.container-s{
+  width: 85%;
+
+}
+
+.timg{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 280px;
+  height:20rem;
+  background-color: #16202C;
+  border-radius: .75rem;
+}
+.timg:hover{
+  transform: scale(.95);
+
+}
+
+.partners{
+  margin: 3rem;
+}
+@media screen and (max-width: 300px) {
+  .partners {
+   justify-items: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  #self {
+    text-align: center;
+  }
+}
+.partners .timg {
+transition: all .3s ease;
+
+}
+.partners .timg :hover{
+  box-shadow: 0 0 10px 1px #ada7a7;
+}
+.banner-5{
+height:
+  33rem;
+}
+.banner-4{
+  height:
+    33rem;
+  width:100%;
+  }
+  .ism{
+padding-left: 16rem;
+  }
+
+  .form-control.ng-touched.ng-invalid {
+    border:1px solid red;
+   }
+   .form-control.ng-touched.ng-valid {
+    border:1px solid green;
+   }
+   #alin{
+     margin-top: 2rem;
+   }
+   #aline{
+    margin-top: 2rem;
+  }
+.left{
+  margin-left: 1rem;
+}
+.lefts{
+margin-bottom: -75px;
+}
+.models{
+  margin-bottom: -30px;
+  margin-top: 7rem;
+}
+.forms{
+  background-color: #F0F7F7;
+  border-radius: 1rem;
+  padding:2rem;
+  opacity: 0.75;
+  margin-bottom: 4rem;
+
+}
+#full{
+  background-image: url('/assets/image/Untitled-2.jpg');
+
+}
+.top{
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+.icons:hover{
+  transform: scale(.8);
+}
+.icons{
+  border-radius: 6rem;
+
+}
+.parent{
+transition: all .3s ease;
+}
+.parent .last:hover{
+  background-color: #000;
+}
+.para{
+  text-decoration: underline 2px;
+  text-underline-offset: .25rem;
+}
+.btn{
+  background-color: #000;
+  text-align: center;
+  color: white;
+  padding: .2em 1em;
+}
+.left{
+  display:inline-block;
+  width:33.33%;
+  text-align: center;
+}
+.inner{
+  background-color: #f2f9f9;
+  box-shadow: 0.5rem,1rem;
+  border-radius: .75rem;
+  padding: 1rem;
+  display: table;
+  width:100%;
+  position: relative;
+  float: none;
+}
+.inner:hover{
+  background-color: #3b4c61;
+  color: #f2f9f9;
+  transform: scale(.9);
+}
+

@@ -1,0 +1,94 @@
+.box{
+  border:1px solid black;
+}
+span{
+  color: #0085FF;
+}
+hr.solid {
+  border-top: 1px solid #bbb;
+
+}
+.scrollable {
+  height: 300px; /* or any value */
+  overflow-y: auto;
+}
+.full{
+  background-color: rgba(223, 223, 223, 0.274);
+}
+.select2-container .select2-selection--single{
+  height:34px !important;
+}
+.select2-container--default .select2-selection--single{
+       border: 1px solid #ccc !important;
+   border-radius: 0px !important;
+}
+.column {
+  width: 23%;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.card:hover{
+  background-color: rgb(240, 10, 86);
+}
+.cardtwo{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  background-color: #f1f1f1;
+}
+.cardtwo:hover{
+  background-color: rgb(10, 240, 240);
+}
+.cardfour{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  background-color: #f1f1f1;
+}
+.cardfour:hover{
+  background-color: rgb(10, 83, 240);
+}
+.cardfive{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  background-color: #f1f1f1;
+}
+.cardfive:hover{
+  background-color: rgb(240, 205, 10);
+}
+.cards {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  background-color: #f1f1f1;
+}
+.cards:hover{
+  background-color: rgb(205, 240, 10);
+}
+button{
+  border-radius: 4rem;
+}
+.protect{
+  background-color: #bbb;
+}
